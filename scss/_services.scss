@@ -1,0 +1,73 @@
+/* SERVICIOS */
+
+.servicios_h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.p_servicio {
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.main_servicios {
+    border: 2px solid;
+    margin-top: 10px;
+    background-color: #0000006e;
+}
+
+.movimiento1 {
+    animation: movimientoAnimacion1 1.9s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+.movimiento2 {
+    animation: movimientoAnimacion2 1.9s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+.movimiento3 {
+    animation: movimientoAnimacion1 1.9s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes movimientoAnimacion1 {
+    0% {
+        transform: translate(-300px, 0);
+    }
+
+    50% {
+        transform: translate(300px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes movimientoAnimacion2 {
+    0% {
+        transform: translate(-800px, 0);
+    }
+
+    50% {
+        transform: translate(500px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.card-custom {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.card-link-custom {
+    transition: all 0.25s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

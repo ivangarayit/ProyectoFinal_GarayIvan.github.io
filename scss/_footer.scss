@@ -1,0 +1,80 @@
+/* SECTOR FOOTER */
+
+footer {
+    height: auto;
+    background-color: $color-negro;
+
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        padding: 1% 0;
+
+        .footer-content__social-media {
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                list-style: none;
+                padding: 1.5rem;
+                color: $color-blanco;
+            }
+
+            .footer-content__social-media--icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                color: $color-blanco;
+                text-decoration: none;
+                transition: all .5s ease;
+
+                i {
+                    font-size: 22px;
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .footer-content__divider {
+            color: $color-blanco;
+            width: 70%;
+            margin: 0 auto;
+            border: 2px solid $color-blanco;
+            opacity: 1;
+        }
+
+        .footer-content__info .footer-content__info--menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 1.5rem;
+        }
+    }
+
+    .copyright-section1 {
+        width: 100%;
+        padding: 10px 0;
+        background-color: #131313;
+        color: $color-blanco;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    footer .copyright-section p {
+        margin: 0 auto;
+        width: 80%;
+    }
+}

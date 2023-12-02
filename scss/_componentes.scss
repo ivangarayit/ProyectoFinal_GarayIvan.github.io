@@ -1,0 +1,17 @@
+/* GALERIA COMPONENTES */
+
+#galeria {
+    img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .col-lg-4 {
+        margin: 0 !important;
+        padding: 25px;
+    }
+
+    img:hover {
+        border: $color-hover;
+    }
+}

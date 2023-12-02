@@ -1,0 +1,38 @@
+/* FORMULARIO CONTACTO */
+
+.section__contacto {
+    border-bottom: none;
+
+    .section__contacto__formulario {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: auto;
+        }
+
+        input,
+        select,
+        textarea {
+            margin: 1rem 0px;
+            padding: .75rem;
+            border-radius: .5rem;
+            background-color: rgba(0, 0, 0, 0.486);
+            border: none;
+        }
+
+        input[type='submit'] {
+            background-color: $color-submit;
+            color: $color-negro;
+
+            &:hover {
+                background-color: $color-blanco;
+                color: $color-negro;
+            }
+        }
+    }
+
+    .iframeMapa {
+        height: 40rem;
+    }
+}
